@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://qqz-snotes.github.io</id>
+    <id>https://readerzhang.github.io</id>
     <title>Gridea</title>
-    <updated>2020-09-22T04:59:39.115Z</updated>
+    <updated>2020-09-22T05:49:36.497Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://qqz-snotes.github.io"/>
-    <link rel="self" href="https://qqz-snotes.github.io/atom.xml"/>
+    <link rel="alternate" href="https://readerzhang.github.io"/>
+    <link rel="self" href="https://readerzhang.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
-    <logo>https://qqz-snotes.github.io/images/avatar.png</logo>
-    <icon>https://qqz-snotes.github.io/favicon.ico</icon>
+    <logo>https://readerzhang.github.io/images/avatar.png</logo>
+    <icon>https://readerzhang.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
     <entry>
         <title type="html"><![CDATA[docker学习之路(一)]]></title>
-        <id>https://qqz-snotes.github.io/post/docker-xue-xi-zhi-lu-yi/</id>
-        <link href="https://qqz-snotes.github.io/post/docker-xue-xi-zhi-lu-yi/">
+        <id>https://readerzhang.github.io/post/docker-xue-xi-zhi-lu-yi/</id>
+        <link href="https://readerzhang.github.io/post/docker-xue-xi-zhi-lu-yi/">
         </link>
         <updated>2020-09-21T13:57:26.000Z</updated>
         <content type="html"><![CDATA[<p>Docker最近是一个很火的东西，我最近也在学习Docker。Docker是一个开源的应用容器引擎，通过虚拟化让环境变得互相独立。与之相比较的有K8S，Mesos等等。就拿最近比较火的K8S来比较。以我所查的资料中他们俩最大的区别就是K8S是基于容器的<strong>集群</strong>管理平台，而docker则是虚拟化了环境，没有做到集群的效果。由于主要是讲解Docker，所以K8S就不提了。Docker核心的三个词是<strong>Build, Ship and Run</strong>。这三个词可以概括Docker是一个非常简易的东西。在我没学习Docker之前，一直都是在linux下JDK8,mysql之类的，还要去手动配置，收到网速的制裁，经过今天的学习Docker之后，就感觉配置环境十分方便。那么接下来进入主题。</p>
 <hr>
 <p>由于我用的是centOS7,所以此处仅提供centOS7的安装方法，7及以下的可以去参考网上的教程。</p>
 <ul>
-<li>首先要确定你是centOS7通过uname -r指令可以得到系统的版本 <img src="https://qqz-snotes.github.io/post-images/1600697990080.png" alt="" loading="lazy"></li>
+<li>首先要确定你是centOS7通过uname -r指令可以得到系统的版本 <img src="https://readerzhang.github.io/post-images/1600697990080.png" alt="" loading="lazy"></li>
 <li>安装所需要的软件包yum install -y yum-utils device-mapper-persistent-data lvm2</li>
 <li>yum -config-manager -add-repo http://mirrors.aliyun.com/docker-ce/linux/centos/docker-ce.repo设置阿里云镜像仓库</li>
 <li>更新yum软件包索引 yum makecache fast</li>
 <li>安装docker ce yum -y install docker-ce</li>
 <li>启动docker systemctl start docker</li>
-<li>通过docker version查看命令，然后通过拉取hello world镜像，docker pull hello-world<img src="https://qqz-snotes.github.io/post-images/1600698464343.png" alt="" loading="lazy">然后就会返回一个helloworld给用户，这就说明docker已经安装完了。</li>
+<li>通过docker version查看命令，然后通过拉取hello world镜像，docker pull hello-world<img src="https://readerzhang.github.io/post-images/1600698464343.png" alt="" loading="lazy">然后就会返回一个helloworld给用户，这就说明docker已经安装完了。</li>
 </ul>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://qqz-snotes.github.io/post/hello-gridea/</id>
-        <link href="https://qqz-snotes.github.io/post/hello-gridea/">
+        <id>https://readerzhang.github.io/post/hello-gridea/</id>
+        <link href="https://readerzhang.github.io/post/hello-gridea/">
         </link>
         <updated>2018-12-11T16:00:00.000Z</updated>
         <summary type="html"><![CDATA[<p>👏  欢迎使用 <strong>Gridea</strong> ！<br>
